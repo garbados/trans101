@@ -1,0 +1,34 @@
+- 
+  title: Ally?
+  id: ally
+  resources:
+- 
+  title: Journalist?
+  id: journalist
+  resources:
+- 
+  title: Gender confused?
+  id: confused
+  resources:
+- 
+  title: Just came out?
+  id: just-out
+  resources:
+    -
+      link: http://transclothesswap.com
+      title: Trans Clothes Swap
+      description: >
+        A blog for trans* folks to ask for clothes, 
+        and other trans* people or cis allies to donate clothes.
+    -
+      link: http://refugerestrooms.org
+      title: Refuge Restrooms
+      description: Find nearby gender-neutral restrooms.
+- 
+  title: Parent of a trans* person?
+  id: parent
+  resources:
+-
+  title: Legal troubles?
+  id: legal
+  resources:

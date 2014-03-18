@@ -1,0 +1,11 @@
+{{#section}}
+  <h1 id="{{ id }}">{{ title }}</h1>
+  
+  <ul>
+  {{#resources}}
+    <li>
+      <a href="{{ link }}" title="{{ title }}">{{ title }}</a>: <span>{{ description }}</span>
+    </li>
+  {{/resources}}
+  </ul>
+{{/section}}
