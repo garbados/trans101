@@ -1,0 +1,20 @@
+{
+  "name": "trans101",
+  "version": "0.0.0",
+  "authors": [
+    "Max Thayer <garbados@gmail.com>"
+  ],
+  "description": "A website for basic trans* resources.",
+  "keywords": [
+    "trans",
+    "website"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
