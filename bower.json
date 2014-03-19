@@ -16,5 +16,12 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "resolutions": {
+    "jquery": "~2.1.0"
+  },
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "jquery.tocify.js": "~1.9.0"
+  }
 }

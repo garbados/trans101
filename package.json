@@ -14,5 +14,11 @@
     "website"
   ],
   "author": "Max Thayer <garbados@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "grunt-contrib-handlebars": "~0.7.0",
+    "grunt": "~0.4.4",
+    "grunt-contrib-connect": "~0.7.1",
+    "grunt-bower-task": "~0.3.4"
+  }
 }
