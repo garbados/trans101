@@ -15,8 +15,8 @@ sections:
     id: confused
     resources:
   - 
-    title: Just came out?
-    id: just-out
+    title: Trans*?
+    id: trans
     resources:
       -
         link: http://transclothesswap.com
@@ -29,10 +29,6 @@ sections:
         title: Refuge Restrooms
         description: Find nearby gender-neutral restrooms.
   - 
-    title: Parent of a trans* person?
+    title: Parent?
     id: parent
-    resources:
-  -
-    title: Legal troubles?
-    id: legal
     resources: 
