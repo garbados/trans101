@@ -25,8 +25,6 @@ Resources are stored in the `docs` folder in [yaml][], like this:
 
 To add more resources, just modify the yaml doc named for your language, ex: `docs/en.yml` for English, and submit your change as a pull request. Once the request has been merged, [Travis][] will then update the site automatically.
 
-To view 
-
 ## Info Cards
 
 As a trans* person, you might find yourself having the same conversations over and over and over with potential allies:
@@ -52,16 +50,16 @@ If you identify as trans* and neither option works for you for whatever reason, 
 
 ## Development
 
-To build Trans101 locally, for testing or otherwise, do this:
+To build Trans101 locally, for testing or otherwise, You'll need Node.js, Bower, and Grunt installed. Once you have those, do this:
 
     git clone git@github.com:garbados/trans101.git
     cd trans101
     npm install && bower install
     grunt serve
 
-Then visit <http://localhost:3000> and you should see Trans101!
+Then visit <http://localhost:8000> and you should see Trans101!
 
-While the `grunt serve` task is still running, any changes you make will cause the site to rebuild, so <http://localhost:3000> will always reflect your latest changes.
+While the `grunt serve` task is still running, any changes you make will cause the site to rebuild, so <http://localhost:8000> will always reflect your latest changes.
 
 ## License
 
