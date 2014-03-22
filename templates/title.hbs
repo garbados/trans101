@@ -1,13 +1,13 @@
 <header class="jumbotron">
   <h1>{{ title }}</h1>
   <p>{{ description }}</p>
+  <nav>
+    <ul class="nav nav-pills">
+      {{#sections}}
+      <li>
+        <a href="#{{ id }}">{{ title }}</a>
+      </li>
+      {{/sections}}
+    </ul>
+  </nav>
 </header>
-<nav>
-  <ul class="nav nav-pills">
-    {{#sections}}
-    <li>
-      <a href="#{{ id }}">{{ title }}</a>
-    </li>
-    {{/sections}}
-  </ul>
-</nav>
