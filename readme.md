@@ -71,9 +71,9 @@ While the `grunt serve` task is still running, any changes you make will cause t
 
 [yaml]: http://yaml.org
 [Travis]: https://travis-ci.org/garbados/trans101
-[infocard_pdf]: http://trans101.org/pdf
-[Trans101]: http://trans101.org
+[Trans101]: http://trans101.maxthayer.org/
 [email]: mailto:garbados@gmail.com
 [gittip]: https://www.gittip.com/garbados/
 [ISC]: http://opensource.org/licenses/ISC
+[infocard_pdf]: 
 [order_form]: 
