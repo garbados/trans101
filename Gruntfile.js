@@ -84,11 +84,15 @@ module.exports = function (grunt) {
       app: {
         options: {
           base: 'dist',
-          keepalive: true
+          port: 5000,
+          hostname: '127.0.0.1'
         }
       }
     },
     watch: {
+      options: {
+        livereload: 5000
+      },
       scripts: {
         files: ['src/**/*'],
         tasks: ['jshint', 'concat', 'copy'] 
@@ -123,6 +127,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', [
     'build',
-    'connect'
+    'connect',
+    'watch'
   ]);
 };
