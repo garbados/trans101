@@ -4,7 +4,7 @@ function get_lang () {
 
 function load_resources (done, language) {
   language = language || get_lang();
-  var url = '/docs/' + language + '.json';
+  var url = 'docs/' + language + '.json';
   $.ajax({
     url: url,
     method: 'GET',
