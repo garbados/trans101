@@ -1,5 +1,7 @@
 # [Trans101][]
 
+[![Build Status](https://travis-ci.org/garbados/trans101.svg?branch=master)](https://travis-ci.org/garbados/trans101)
+
 A primer of trans* resources, for allies, journalists, parents, anyone questioning their gender, and of course, trans* people!
 
 Built with love, and inspired by [f*ckinghomepage](http://fuckinghomepage.com).
@@ -26,6 +28,8 @@ Resources are stored in the `docs` folder in [yaml][], like this:
 To add more resources, just modify the yaml doc named for your language, ex: `docs/en.yml` for English, and submit your change as a pull request. Once the request has been merged, [Travis][] will then update the site automatically.
 
 ## Info Cards
+
+**Coming Soon**
 
 As a trans* person, you might find yourself having the same conversations over and over and over with potential allies:
 
@@ -69,7 +73,7 @@ While the `grunt serve` task is still running, any changes you make will cause t
 [Travis]: https://travis-ci.org/garbados/trans101
 [infocard_pdf]: http://trans101.org/pdf
 [Trans101]: http://trans101.org
-[order_form]: 
 [email]: mailto:garbados@gmail.com
-[gittip]:
+[gittip]: https://www.gittip.com/garbados/
 [ISC]: http://opensource.org/licenses/ISC
+[order_form]: 
