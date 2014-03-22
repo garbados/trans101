@@ -28,6 +28,9 @@
   "exportsOverride": {
     "jquery.tocify.js": {
       "": "src/javascripts/jquery.tocify.js"
+    },
+    "jquery": {
+      "": "jquery.js"
     }
   }
 }
